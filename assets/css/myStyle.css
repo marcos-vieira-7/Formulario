@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+body {
+    background-color:#006d77;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 80%;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    background-color: #edf6f9;
+}
+
+.button {
+    background-color: #006d77;
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #0000001c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button:hover {
+    box-shadow: 6px 7px 7px #0000001c;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.input-box input {
+    padding: 0.8rem 1.2rem;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    border: none;
+}
+
+
+.input-box input:focus-visible {
+    outline: 1px solid #9381ff;
+}
+
+
+label {
+    font-size: 12px;
+    margin:5px;
+}
+
+.button-group {
+    position: relative;
+    bottom: 0px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 1064px) {
+
+    
+
+}
+
